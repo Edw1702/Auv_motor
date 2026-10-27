@@ -1,0 +1,11 @@
+# Goal: força desejada para o teste em Newtons (-10.0 a +10.0)
+float32 force
+---
+# Result
+bool success
+string message
+---
+# Feedback
+int32[] active_motors
+int32[] tested_motors
+float32 progress

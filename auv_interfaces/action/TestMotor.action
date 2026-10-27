@@ -1,0 +1,10 @@
+# Goal: índice do motor (0 a 6) e força desejada em Newtons (-10.0 a +10.0)
+int32 motor_id
+float32 force
+---
+# Result
+bool success
+string message
+---
+# Feedback
+int32 active_motor
